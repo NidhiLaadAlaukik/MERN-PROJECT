@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | MyApp</title>
+
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+
+
+<body>
+
+    <main class="register-page">
+
+        <section class="register-card">
+
+
+            <!-- =========================
+                 BRAND
+            ========================== -->
+
+            <div class="brand">
+
+                <div class="brand-logo">
+                    C
+                </div>
+
+                <span class="brand-name">
+                    CodeNest
+                </span>
+
+            </div>
+
+
+            <!-- =========================
+                 HEADER
+            ========================== -->
+
+            <div class="register-header">
+
+                <h1>Create an Account</h1>
+
+                <p>
+                    Join MyApp and connect with developers
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 REGISTER FORM
+            ========================== -->
+
+            <form class="register-form" id="registerForm">
+
+
+                <!-- Full Name -->
+
+                <div class="form-group">
+
+                    <label for="full-name">
+                        Full Name
+                    </label>
+
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"
+                        autocomplete="name" required>
+
+                </div>
+
+
+                <!-- Username -->
+
+                <div class="form-group">
+
+                    <label for="username">
+                        Username
+                    </label>
+
+                    <input type="text" id="username" name="username" placeholder="Choose a username"
+                        autocomplete="username" required>
+
+                    <small class="input-hint">
+                        This will be visible on your profile.
+                    </small>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email"
+                        required>
+
+                </div>
+
+
+                <!-- Password -->
+
+                <div class="form-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input type="password" id="password" name="password" placeholder="Create a password"
+                        autocomplete="new-password" required>
+
+                    <small class="input-hint">
+                        Use at least 8 characters.
+                    </small>
+
+                </div>
+
+
+                <!-- Confirm Password -->
+
+                <div class="form-group">
+
+                    <label for="confirm-password">
+                        Confirm Password
+                    </label>
+
+                    <input type="password" id="confirmPassword" name="confirmPassword"
+                        placeholder="Confirm your password" autocomplete="new-password" required>
+
+                </div>
+
+
+                <!-- Terms -->
+
+                <div class="form-options">
+
+                    <label class="terms">
+
+                        <input type="checkbox" name="terms" required>
+
+                        <span>
+                            I agree to the
+                            <a href="#">
+                                Terms & Conditions
+                            </a>
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- Create Account -->
+
+                <button type="submit" class="register-button">
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <!-- =========================
+                 LOGIN LINK
+            ========================== -->
+
+            <div class="login-section">
+
+                <p>
+
+                    Already have an account?
+
+                    <a href="login.html">
+                        Login
+                    </a>
+
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 FOOTER
+            ========================== -->
+
+            <div class="register-footer">
+
+                <p>
+                    © 2026 CodeNest. All rights reserved.
+                </p>
+
+            </div>
+
+
+        </section>
+
+    </main>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
